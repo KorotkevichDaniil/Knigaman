@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Json</string>
+    <string name="simple_json">"{\"results\":{\"sitename\":\"БПОУ ОМАВИАТ\",\"url\":"\"www.oat.ru/\""}}"</string>
+    <string name="simple_json2">"{\"results\":{\"sitename\":\"БПОУ ОМАВИАТ\",\"url\":"\"www.oat.ru/\", \"array\":[{\"element\":\"Элемент 1\"}, {\"element\":\"Элемент 2\"}, {\"element\":\"Элемент 3\"}]}}"</string>
+</resources>

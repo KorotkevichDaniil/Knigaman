@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bank</string>
+    <string-array name="rezim">
+        <item>Покупка</item>
+        <item>Продажа</item>
+    </string-array>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:text="BANK"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#d8e1e0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="26dp"
+            android:text="Курсы валют"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:id="@+id/rec"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Текущий баланс: "
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:gravity="left"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Выберите режим"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_marginLeft="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/rezim"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/txtRezim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Покупка"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/selectedValute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Выбранная валюта:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Введите сумму (в рублях):"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/editSum"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtValute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Будет куплено: "
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:textSize="24dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnBuy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:text="Купить"
+                android:textSize="26dp"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"
+                android:background="#990000"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
