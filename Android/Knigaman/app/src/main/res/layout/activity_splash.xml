@@ -17,7 +17,7 @@
         android:layout_width="200dp"
         android:layout_height="0dp"
         android:layout_weight="1.5"
-        android:src=""
+        android:src="@drawable/golub"
         android:layout_gravity="center"
         android:scaleType="centerCrop"/>
 

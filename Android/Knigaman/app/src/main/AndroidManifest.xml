@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Knigaman">
         <activity
-            android:name=".BuyActivity"
+            android:name=".MainActivities.BuyActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivities.BookInformationActivity"

@@ -1,8 +1,10 @@
-package com.example.knigaman;
+package com.example.knigaman.MainActivities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.knigaman.R;
 
 public class BuyActivity extends AppCompatActivity {
 
