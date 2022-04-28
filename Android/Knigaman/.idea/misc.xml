@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_authorization.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_basket.xml" value="0.3171875" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_book_information.xml" value="0.3171875" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_buy.xml" value="0.3171875" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_registration.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_splash.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dshbo/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_authorization.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dshbo/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_autorization.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dshbo/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_basket.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dshbo/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_book_information.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dshbo/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_buy.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dshbo/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_edit.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dshbo/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dshbo/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_registration.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dshbo/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dshbo/AndroidStudioProjects/Knigaman/app/src/main/res/layout/activity_success.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/stare/Desktop/gfgfg/Android/Knigaman/app/src/main/res/drawable/butt.xml" value="0.262" />
+        <entry key="..\:/Users/stare/Desktop/gfgfg/Android/Knigaman/app/src/main/res/drawable/button.xml" value="0.1575" />
+        <entry key="..\:/Users/stare/Desktop/gfgfg/Android/Knigaman/app/src/main/res/font/alike_angular.xml" value="0.215625" />
+        <entry key="..\:/Users/stare/Desktop/gfgfg/Android/Knigaman/app/src/main/res/font/average.xml" value="0.215625" />
+        <entry key="..\:/Users/stare/Desktop/gfgfg/Android/Knigaman/app/src/main/res/layout/activity_add.xml" value="0.3625" />
+        <entry key="..\:/Users/stare/Desktop/gfgfg/Android/Knigaman/app/src/main/res/layout/activity_authorization.xml" value="0.3625" />
+        <entry key="..\:/Users/stare/Desktop/gfgfg/Android/Knigaman/app/src/main/res/layout/activity_buy.xml" value="0.3625" />
+        <entry key="..\:/Users/stare/Desktop/gfgfg/Android/Knigaman/app/src/main/res/layout/activity_registration.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/stare/Desktop/gfgfg/Android/Knigaman/app/src/main/res/layout/activity_splash.xml" value="0.18541666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

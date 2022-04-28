@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivities.RegistrationActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@drawable/fon_gradient">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logonadpis"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"/>
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:hint="Фамилия"
+        android:gravity="center"
+        android:background="@drawable/connn"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/connn"
+        android:hint="Имя"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/connn"
+        android:layout_gravity="center"
+        android:hint="Отчество"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/phoneRegistration"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/connn"
+        android:hint="Телефон"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/passwordRegistration"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/connn"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/repeatPassword"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/connn"
+        android:hint="Повторите пароль"
+        android:inputType="textPassword"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegistration"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butt"
+        android:fontFamily="@font/brawler"
+        android:text="Зарегистрироваться"
+        android:textSize="18dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGoToAuthorization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Уже есть аккаунт? Авторизуйтесь"
+        android:textSize="13dp"
+        android:background="#00000000"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

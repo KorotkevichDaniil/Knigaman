@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivities.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/fon_gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Каталог"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Фильтры"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:text="Цена:"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/priceFrom"
+                android:layout_marginLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="@drawable/connn"
+                android:layout_height="30dp"
+                android:hint="От"/>
+
+            <EditText
+                android:id="@+id/priceTo"
+                android:layout_marginLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="@drawable/connn"
+                android:layout_height="30dp"
+                android:hint="До"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Поиск..."
+            android:drawableLeft="@drawable/poisk"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:background="@drawable/connn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBasket"
+            android:layout_width="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="Корзина"
+            android:background="@drawable/butt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
